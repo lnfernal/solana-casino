@@ -11,8 +11,6 @@ const emeraldScript = require('../../public/javascripts/betScripts/emeraldScript
 const findDuplicate= require('../../public/javascripts/duplicateCheck.js')
 const { DEVNET_RPC, MAINNET_BETA_RPC, SERVER_RPC } = require('../../public/javascripts/rpc.js');
 const { Connection } = require('@solana/web3.js');
-const e = require('express');
-
 
 const RPC_CONNECTION = new Connection(SERVER_RPC, 'processed')
 
